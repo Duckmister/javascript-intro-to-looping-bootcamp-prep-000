@@ -1,28 +1,26 @@
 
 
 function forLoop(array){
-  for (var i=0; i<26; i++){
-    if(i===1){
+  for (let i = 0; i < 26; i++) {
+    if(i === 1){
       array.push('I am 1 strange loop.');
     } else{
-      array.push('I am ' + ${i} + ' strange loops.')
+      array.push('I am ' + ${i} + ' strange loops.');
     }
   }
-  return array
 }
 
-var array = {}
+
 
 function forLoop(array){
-  for (var i = 0; i < 26; i++){
+  for (let i = 0; i < 26; i++){
     if (i===1){
-    array.push("I am " ${i} " strange loop.");
+    console.log("I am " ${i} " strange loop.");
     }
     else{
-      array.push("I am " ${i} " strange loops.");
+      console.log("I am " ${i} " strange loops.");
     }
   }
-  return array;
 }
 
 function whileLoop(n){
