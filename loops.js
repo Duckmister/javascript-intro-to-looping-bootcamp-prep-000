@@ -22,9 +22,15 @@ function maybeTrue() {
   return Math.random() >= 0.5
 }
 
+<<<<<<< HEAD
 function doWhileLoop(array){
   do {
     array.shift();
+=======
+function doWhile(array){
+  do {
+    array.shift()
+>>>>>>> 07616c25ac642aca7abf4abc5083da912dce6cc1
   } while (array.length > 0 || maybeTrue());
   return array;
 }
